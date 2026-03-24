@@ -15,61 +15,15 @@ public class MonProjet {
      */
     
     public static void main(String[] args) {
-    int a = 3;
-    int b = 11;
-    int c = 5;
-    int d = 8;
-    
-    if(a==b){
-        boolean e = true;
-        System.out.println(e);
-    }else{
-        boolean e = false;
-        System.out.println(e);
-    }
-    
-    if(b == a+d){
-        boolean e = true;
-        System.out.println(e);
-    }else{
-        boolean e = false;
-        System.out.println(e);
-    }
-    
-    if((b == a+d) && (a == b)){
-        boolean e = true;
-        System.out.println(e);
-    }else{
-        boolean e = false;
-        System.out.println(e);
-    }
-    
-    if((b == a) || (a==a)){
-            boolean e = true;
-            System.out.println(e);
-        }
-        else{
-            boolean e = false;
-            System.out.println(e);
-        }
-    
-    if((c == 5) && (false)){
-            boolean e = true;
-            System.out.println(e);
-        }
-        else{
-            boolean e = false;
-            System.out.println(e);
-        }
-    if(((4 == 4) && (4 ==5)) || (a == a)){
-            boolean e = true;
-            System.out.println(e);
-        }
-        else{
-            boolean e = false;
-            System.out.println(e);
-        }
+        int a = 9;
+        int b = 9;
+        int c = 9;
         
+        if(a == b && b == c){
+            System.out.println("Les trois variables sont égales");
+        }else{
+            System.out.println("Les trois variables ne sont pas identiques");
+        }
     }
      
 }
