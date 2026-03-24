@@ -13,17 +13,17 @@ public class MonProjet {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
-    String nom = "Dupont";
-    String prenom = "Pierre";
-    int anneeDeNaissance = 2002;
-    
-    int age = 2026 - anneeDeNaissance;
-    
-    String nomComplet = prenom + " " + nom;
-        
-        System.out.println(nomComplet + " est né en 2002 il a donc " + age + " ans.");
-    
+     int a = 3;
+     int b = 3;
+     
+            if(a==b){
+            System.out.println("a=b");
+        }
+        else{
+            System.out.println("a et b sont différents");
+        }
     }
-    
+     
 }
