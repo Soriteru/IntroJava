@@ -15,14 +15,8 @@ public class MonProjet {
      */
     
     public static void main(String[] args) {
-        int a = 9;
-        int b = 9;
-        int c = 9;
-        
-        if(a == b && b == c){
-            System.out.println("Les trois variables sont égales");
-        }else{
-            System.out.println("Les trois variables ne sont pas identiques");
+        for(int i = 0; i < 10; i++){
+            System.out.println(i);
         }
     }
      
